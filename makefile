@@ -4,5 +4,6 @@ parsing.o: parsing.c
 	gcc -c -g -ansi -pedantic -Wall parsing.c -o parsing.o
 main.o: main.c
 	gcc -c -g -ansi -pedantic -Wall main.c -o main.o
-
+list.c: list.c
+	gcc  -g -ansi -pedantic -Wall list.c -o list
 
